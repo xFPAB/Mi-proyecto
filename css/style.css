@@ -75,7 +75,7 @@ p{
     height: 70%;
 }
 footer{
-    margin-top: 900px;
+    margin-top: 1100px;
 }
 @media only screen and (min-width:360px) {
     p{
@@ -156,4 +156,10 @@ footer{
     footer{
     margin-top: 0px;
     }
+}
+
+.botonrosa{
+    margin-left: 10%;
+    background-color: #855e6e;
+    border-color: black;
 }
