@@ -164,9 +164,13 @@ footer{
 }
 
 .botonrosa{
-    margin-left: 10%;
     background-color: #855e6e;
     border-color: black;
+    color: aliceblue;
+}
+.botonrosa:hover{
+    background-color: #ffb2c1;
+    color: aliceblue;
 }
 .estudio22{
     border: 6px solid #f000;
@@ -177,4 +181,10 @@ footer{
 .formcontact{
     margin-top: 10px;
     padding: 10px;
+}
+.margin10{
+    margin-left: 10%;
+}
+.derecha{
+    justify-content: flex-end;
 }
