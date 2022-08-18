@@ -1,3 +1,17 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+footer {
+  margin-top: auto;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +30,16 @@ nav {
   height: 300px;
   padding: 10px;
   border: 3px solid #ffb2c1;
+}
+
+a {
+  color: black;
+  list-style: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
 }
 
 ul {
@@ -92,9 +116,17 @@ footer {
   background-color: #855e6e;
 }
 
+.footerimg {
+  margin-top: 50%;
+  margin-left: 20px;
+}
+
 @media only screen and (min-width: 360px) {
   p {
-    font-size: 24px;
+    font-size: 22px;
+  }
+  .estudiandoo {
+    margin-bottom: 50px;
   }
   footer {
     margin-top: 1200px;
@@ -131,7 +163,7 @@ footer {
     font-size: 43px;
   }
   .footer {
-    margin-top: 500px;
+    margin-top: auto;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -168,7 +200,7 @@ footer {
     grid-row: 2/3;
   }
   footer {
-    margin-top: 0px;
+    margin-top: auto;
   }
 }
 .botonrosa {
@@ -201,6 +233,18 @@ footer {
 
 .derecha {
   justify-content: flex-end;
+}
+
+.contactanos {
+  margin-left: 10px;
+}
+
+.margin10px {
+  margin: 200px;
+}
+
+.item:hover {
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=style.css.map */
